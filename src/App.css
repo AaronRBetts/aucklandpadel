@@ -11,6 +11,12 @@ h1 {
   color:  var(--dark-primary-color);
 }
 
+.link {
+  font-family: 'Magz', sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
 p b {
   color: var(--secondary-color);
 }

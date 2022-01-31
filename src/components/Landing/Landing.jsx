@@ -4,10 +4,12 @@ import ImagePlayer from '../ImagePlayer/ImagePlayer';
 import Logo from '../../PadelAuckland.svg'
 import Footer from '../Footer/Footer'
 import About from '../About/About'
+import Navbar from '../Navbar/Navbar'
 
 const Landing = () => {
   return (
   <div>	
+    <Navbar />
     <section class="showcase">
       <div class="video-container">
         <ImagePlayer />

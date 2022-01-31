@@ -1,0 +1,36 @@
+.nav {
+    height: 4rem;
+    display: flex;
+    background-color: var(--primary-color);
+}
+
+.navContent {
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    margin: auto;
+}
+
+.navContent .link {
+
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.navContent .link a {
+    color: white;
+    font-weight: lighter;
+    font-size: 1.4rem;
+}
+
+.nav .logo {
+    margin: auto;
+    height: 4rem;
+}
