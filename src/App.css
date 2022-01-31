@@ -1,3 +1,14 @@
+@import url('http://fonts.cdnfonts.com/css/magz');
+
+h1 {
+  font-family: 'Magz', sans-serif;
+  color: #FF5757;
+}
+
+p {
+  font-family: "Blinker", Sans-serif;
+}
+
 .App {
   text-align: center;
 }
