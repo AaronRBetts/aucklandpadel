@@ -1,8 +1,8 @@
 import React from 'react';
 import './About.css';
 import background from '../../background.png'
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faTwitter } from '@fortawesome/free-brand-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {
   return (
@@ -23,10 +23,10 @@ const About = () => {
       <h1>Follow Us On Social Media</h1>
 
       <div class="social">
-        {/* <a href="https://instagram.com/padelauckland" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a> */}
-        <a href="" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
-        <a href="" target="_blank"><i class="fab fa-github fa-3x"></i></a>
-        <a href="" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="https://instagram.com/padelauckland"><FontAwesomeIcon icon={faInstagram} /> @padelauckland</a>
+        <a href=""><i class="fab fa-facebook fa-3x"></i></a>
+        <a href=""><i class="fab fa-github fa-3x"></i></a>
+        <a href=""><i class="fab fa-linkedin fa-3x"></i></a>
         </div>
       </div>
       <div className='imageContainer'>

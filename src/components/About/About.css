@@ -39,10 +39,19 @@
   }
 
 .imageContainer {
-z-index: -1;
-position: absolute;
-overflow: hidden;
-max-width: 100%;
-left: 0;
-top: 57vh;
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  max-width: 100%;
+  left: 0;
+  top: 57vh;
+}
+
+.social a {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.social a svg {
+  font-size: 4rem;
 }
