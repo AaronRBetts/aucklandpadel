@@ -15,7 +15,7 @@ const Landing = () => {
       <div class="content">
         <h1></h1>
         <img className="logo" src={Logo}/>
-        <h3><i>"Padel combines elements of tennis and squash.. it's easy to start but difficult to master"</i></h3>
+        <h3><i>"Padel combines elements of tennis and squash.. it's fun and easy as a beginner, but difficult to master"</i></h3>
         <a href="#about" class="btn">Learn More</a>
       </div>
     </section>

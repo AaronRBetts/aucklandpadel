@@ -14,12 +14,11 @@ const About = () => {
       <p>
       The sport became very popular in Spain, which has been the professional circuit host of the World Padel Tour where it has been played since 2005.</p><br />
       <p> Over the course of the past 10 years, padel has begun to spread rapidly to the rest of Europe and the United States.
-</p><br />
+      </p><br />
       <p>
-Extremely fun, social and accessible for all, padel is a breath of fresh air that is revitalizing clubs with an activity complimentary to tennis.</p><br />
+        Extremely fun, social and accessible for all, padel is a breath of fresh air that is revitalizing clubs with an activity complimentary to tennis.</p><br />
         <iframe src="https://www.youtube.com/embed/E2YEYRI_mpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
         <iframe src="https://www.youtube.com/embed/cR0gJapEFbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
       <h1>Follow Us On Social Media</h1>
 
