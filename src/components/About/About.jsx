@@ -17,10 +17,10 @@ const About = () => {
       </p><br />
       <p>
         Extremely fun, social and accessible for all, padel is a breath of fresh air that is revitalizing clubs with an activity complimentary to tennis.</p>
-        <a className="seeMore" href="https://www.youtube.com/c/Worldpadeltour">Read more</a><br /><br /><br />
+        <a className="seeMore" href="https://fi.wikipedia.org/wiki/Padel">Read more</a><br /><br /><br />
       <h1>Padel promotional videos</h1>
         <iframe src="https://www.youtube.com/embed/E2YEYRI_mpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
-        <iframe src="https://www.youtube.com/embed/cR0gJapEFbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/cR0gJapEFbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br /><br /><br />
       <h1>Professional match highlights</h1>
         <iframe src="https://www.youtube.com/embed/VfnWW7X2P8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
       <a className="seeMore" href="https://www.youtube.com/c/Worldpadeltour">See more</a>
