@@ -4,7 +4,7 @@
     text-align: left;
     margin: auto;
     padding-left: 1em;
-	padding-top: 300px;
+	  padding-top: 20vh;
 }
 
 #about iframe {
@@ -27,6 +27,10 @@
 
 .social a {
 	margin: 0 5px;
+}
+
+.seeMore {
+  font-weight: bold;
 }
 
 .about, .about > * {
