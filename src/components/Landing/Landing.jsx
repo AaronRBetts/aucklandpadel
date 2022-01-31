@@ -2,6 +2,7 @@ import React from 'react';
 import './Landing.css'
 import ImagePlayer from '../ImagePlayer/ImagePlayer';
 import Logo from '../../PadelAuckland.svg'
+import Footer from '../Footer/Footer'
 import About from '../About/About'
 
 const Landing = () => {
@@ -21,6 +22,7 @@ const Landing = () => {
     </section>
 
     <About />
+    <Footer />
   </div>
   )
 };

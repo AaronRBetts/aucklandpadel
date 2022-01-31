@@ -1,8 +1,6 @@
 import React from 'react';
 import './About.css';
 import background from '../../background.png'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {
   return (
@@ -25,18 +23,10 @@ const About = () => {
         <iframe src="https://www.youtube.com/embed/VfnWW7X2P8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
       <a className="seeMore" href="https://www.youtube.com/c/Worldpadeltour">See more</a>
         <br /><br /><br />
-      <h1>Follow Us On Social Media</h1>
-
-      <div class="social">
-        <a href="https://instagram.com/padelauckland"><FontAwesomeIcon icon={faInstagram} /> @padelauckland</a>
-        <a href=""><i class="fab fa-facebook fa-3x"></i></a>
-        <a href=""><i class="fab fa-github fa-3x"></i></a>
-        <a href=""><i class="fab fa-linkedin fa-3x"></i></a>
-        </div>
-      </div>
       <div className='imageContainer'>
         <img className="background" src={background}/>
       </div>
+  </div>
 
     </section>
 

@@ -1,0 +1,21 @@
+.footer {
+    background-color: var(--primary-color);
+}
+
+
+.footer a {
+    color:  var(--dark-primary-color);
+    font-size: 2rem;
+    font-weight: bold;
+}
+  
+.footer a svg {
+    font-size: 4rem;
+}
+  
+.footerContainer {
+    max-width: 1000px;
+    text-align: left;
+    margin: auto;
+    padding-left: 1em;
+}
