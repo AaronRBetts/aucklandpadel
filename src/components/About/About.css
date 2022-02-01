@@ -38,15 +38,18 @@
 }
 
 
-.background {
-    max-width: 400vw;
-  }
 
 .imageContainer {
-  z-index: -1;
+  z-index: 1;
   position: absolute;
-  overflow: hidden;
-  max-width: 100%;
+  overflow-y: visible;
   left: 0;
-  top: 57vh;
+  width: 100%;
+  /* top: 57vh; */
+}
+
+.imageContainer img {
+
+  transform: translateY(-35%);
+  width: 100%;
 }

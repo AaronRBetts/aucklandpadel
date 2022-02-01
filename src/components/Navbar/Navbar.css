@@ -14,7 +14,6 @@
     display: flex;
     flex-wrap: nowrap;
     max-width: 100%;
-    margin: auto;
 }
 
 .navContent .link {
