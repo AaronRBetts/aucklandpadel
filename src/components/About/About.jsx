@@ -31,6 +31,9 @@ const About = () => {
           <p>
             Extremely fun, social and accessible for all, padel is a breath of fresh air that is revitalizing clubs with an activity complimentary to tennis.</p><br />
             <a className="seeMore" href="https://en.wikipedia.org/wiki/Padel_(sport)">Read more</a><br /><br /><br />
+            <p>
+            At competition level, padel is an intense game of physical chess.</p><p>Fast <b>reactions</b>, good <b>decision making</b>, high <b>technical skill</b> and <b>physical stamina</b> are the keys to success.</p><br />
+            <a className="seeMore" href="https://en.wikipedia.org/wiki/Padel_(sport)">Read more</a><br /><br /><br />
           
             <br /><br /><br />
         </div>
@@ -38,8 +41,8 @@ const About = () => {
           <h1>Padel Auckland</h1>
           <p>Padel is a worldwide phenomenon, often being referred to as the <b>fastest growing sport</b> in the world.</p><br />
           <p>
-            With New Zealand having a rich culture in racquet sports, <b>Auckland</b> is an excellent choice to introduce to the intriguing sport of Padel.</p><br />
-          <p>Stay up to date with <b>Padel Auckland</b> to find out when and where Padel is coming.
+            With New Zealand having such a rich culture in racquet sports, <b>Auckland</b> is an excellent choice to introduce to the intriguing sport of Padel.</p><br />
+          <p>Stay up to date with <b><a href="https://instagram.com/padelauckland">Padel Auckland</a></b> to find out when and where Padel is coming.
           </p><br />
           <h1>Padel promotional videos</h1>
             <iframe src="https://www.youtube.com/embed/NX-68fxhL_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
