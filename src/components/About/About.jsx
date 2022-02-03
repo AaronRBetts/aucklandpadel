@@ -12,7 +12,10 @@ const About = () => {
       <section id="about">
         <div className="about">
           <h1>Padel</h1>
-          <p>Padel is a racquet sport that combines the elements of <b>tennis</b> and <b>squash.</b> It is only played in doubles and is practiced outdoors as much as indoors.</p><br />
+          <p>Padel is a racquet sport that combines the elements of <b>tennis</b> and <b>squash.</b> It is only played in doubles and is practiced outdoors as much as indoors.</p>
+          
+          <p>Padel is played like tennis, however the court is enclosed and the glass walls can be used in a similar way as in squash. </p>
+          <p>The balls are similar to tennis balls, and the racquets are similar to an enlarged table tennis bat.</p><br />
           
           <div className='imageBox'>
             <img src="https://assets.fontsinuse.com/static/use-media-items/77/76256/full-1427x642/5bcd8883/world-padel-tour-master-clas.jpeg" alt="Padel court"/>
@@ -30,7 +33,6 @@ const About = () => {
           <p>Check out <a href="https://www.skysports.com/tennis/news/12110/12156747/ten-things-you-probably-didnt-know-about-padel">this article</a> by Sky sports to learn more about Padel.</p><br />
           <p>
             Extremely fun, social and accessible for all, padel is a breath of fresh air that is revitalizing clubs with an activity complimentary to tennis.</p><br />
-            <a className="seeMore" href="https://en.wikipedia.org/wiki/Padel_(sport)">Read more</a><br /><br /><br />
             <p>
             At competition level, padel is an intense game of physical chess.</p><p>Fast <b>reactions</b>, good <b>decision making</b>, high <b>technical skill</b> and <b>physical stamina</b> are the keys to success.</p><br />
             <a className="seeMore" href="https://en.wikipedia.org/wiki/Padel_(sport)">Read more</a><br /><br /><br />
