@@ -11,11 +11,20 @@ const VideoGrid = () => {
           href={"https://www.youtube.com/embed/E2YEYRI_mpk"}
           title={"UK based iPadel promotional video"}/>
           <Video 
-          href={"https://www.youtube.com/embed/cR0gJapEFbQ"}
-          title={"ITV news article"}/>
+          href={"https://www.youtube.com/embed/tC9lddfmuVA"}
+          title={"The Padel School - from tennis to padel"}/>
           <Video 
-          href={"https://www.youtube.com/embed/VfnWW7X2P8k"}
-          title={"World Padel Tour - Top 10 points of 2021"}/>
+          href={"https://www.youtube.com/embed/1P917DZJsCc"}
+          title={"World Padel Tour - Professional Finals match tie break"}/>
+          <Video 
+          href={"https://www.youtube.com/embed/v7JTEpxK1P0"}
+          title={"The Padel School - beginner match analysis"}/>
+          <Video 
+          href={"https://www.youtube.com/embed/17DC_atNmkQ"}
+          title={"The Padel School - basic court positioning"}/>
+          <Video 
+          href={"https://www.youtube.com/embed/pR9CkiHQiY4"}
+          title={"The Padel School - intermediate match analysis"}/>
       </ul>
     </div>
   </section>

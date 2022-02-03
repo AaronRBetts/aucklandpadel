@@ -19,9 +19,10 @@
     flex-grow: 1;
     /* position: relative; */
     overflow: hidden;
-    width: 33.333333333%;
-    width: -webkit-calc(100% / 3);
-    width: calc(100% / 3);
+    width: 25%;
+    width: -webkit-calc(100% / 4);
+    width: calc(100% / 4);
+    margin: 10px;
   }
   li.video a {
     outline: none;

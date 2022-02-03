@@ -5,7 +5,7 @@ const Video = ({href, title}) => {
     <li class="video featured">
     <div data-fancybox class="featured-video">
       <figure>
-          <iframe src={href} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe src={href} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style={{height: '200px'}}></iframe>
         <figcaption>{title}</figcaption>
       </figure>
     </div>
