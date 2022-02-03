@@ -5,6 +5,8 @@
     margin: auto;
     padding-left: 1em;
 	  padding-top: 20vh;
+    z-index: 20;
+    position: relative;
 }
 
 #about iframe {
@@ -17,7 +19,7 @@
 #about p {
     text-align: left;
 	font-size: 1.2rem;
-	max-width: 600px;
+	max-width: 400px;
 }
 
 #about h2 {
@@ -30,14 +32,16 @@
 }
 
 .seeMore {
-  font-weight: bold;
+  font-family: 'Magz', sans-serif;
 }
 
 .about, .about > * {
     z-index: 20;
 }
 
-
+.about p {
+  margin-bottom: 2em;
+}
 
 .imageContainer {
   z-index: 1;
@@ -46,6 +50,24 @@
   left: 0;
   width: 100%;
   /* top: 57vh; */
+}
+
+.imageBox {
+  width: auto;
+}
+
+.imageBox img {
+  width: 100%;
+}
+
+.imageBox p i {
+  font-size: 0.6em;
+  line-height: 0.6em;
+  color: var(--dark-primary-color);
+}
+
+.imageBox p {
+  height: auto;
 }
 
 .imageContainer img {

@@ -5,6 +5,7 @@ import Logo from '../../PadelAuckland.svg'
 import Footer from '../Footer/Footer'
 import About from '../About/About'
 import Navbar from '../Navbar/Navbar'
+import VideoGrid from '../VideoGrid/VideoGrid';
 
 const Landing = () => {
   return (
@@ -24,6 +25,7 @@ const Landing = () => {
     </section>
 
     <About />
+    <VideoGrid />
     <Footer />
   </div>
   )

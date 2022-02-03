@@ -47,8 +47,7 @@ h1 {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	background: var(--primary-color) url('') no-repeat center
-		center/cover;
+	background: var(--primary-color);
 }
 
 .logo {
@@ -81,6 +80,10 @@ h1 {
 	z-index: 2;
   /* background: rgb(18,8,186);
   background: linear-gradient(30deg, rgba(18,8,186,1) 0%, rgba(9,9,121,0.7035189075630253) 50%, rgba(0,212,255,1) 100%); */
+}
+
+.content .logo {
+	margin-bottom: 10vh;
 }
 
 .btn {
