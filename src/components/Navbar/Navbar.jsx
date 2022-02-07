@@ -2,37 +2,45 @@ import React from 'react';
 import './Navbar.css'
 import Logo from '../../PadelAucklandalt.svg'
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-const Navbar = () => {
-  return (
-    <div>
-      <div className='nav'>
-        <div style={{height: '100px'}}></div>
-        <div>
-          <img className='headerLogo' src={Logo}/>
-        </div>
-          <ul className='navContent'>
-            <li>
-              <Link className='link' to="/">Home</Link>
-            </li>
-            <li>
-              <Link className='link' to="/rules">Rules</Link>
-            </li>
-            <li>
-              <Link className='link' to="/contact">Contact</Link>
-            </li>
-            <li>
-              <Link className='link' to="/court">Court</Link>
-            </li>
-            <li>
-              <Link className='link' to="/equipment">Equipment</Link>
-            </li>
-          </ul>
-      </div>
-      <div className='header'>
-      </div>
-    </div>
-  );
+function Navbar() {
+
+    return (
+    <nav role="navigation" className="nav">
+  
+        <a className="menu-toggle" href="#head-nav">
+          <span aria-hidden="true" className="icon-menu"></span><span className="menu-toggle-text"> menu</span>
+        </a>
+            <ul id="main-menu" className="top-nav menu clearfix">
+              <li className='menu-item'>
+                <Link className='link animate__animated animate__fadeIn' to="/">Home</Link>
+              </li>
+              <li className='menu-item'>
+                <Link className='link animate__animated animate__fadeIn' to="/contact">Contact</Link>
+              </li>
+              <li className='menu-item'>
+                <Link className='link animate__animated animate__fadeIn' to="/location">Location</Link>
+              </li>
+              <li className='menu-item'>
+                <Link className='link animate__animated animate__fadeIn' to="/equipment">Information</Link>
+                <ul className="sub-menu">
+                  <li className='menu-item'>
+                    <Link className='link animate__animated animate__fadeIn' to="/rules">Rules</Link>
+                  </li>
+                  <li className="menu-item">
+                    <Link className='link animate__animated animate__fadeIn' to="/equipment">Equipment</Link>
+                  </li>
+                  <li className='menu-item'>
+                    <Link className='link animate__animated animate__fadeIn' to="/court">Court</Link>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+    
+  </nav>
+    );
 };
 
 export default Navbar;

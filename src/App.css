@@ -36,7 +36,6 @@ h2 {
   margin: auto;
   text-align: center;
   font-family: 'Magz', sans-serif;
-  background: url('./logo_small.png') no-repeat;
   color:  var(--dark-primary-color);
   background-position: left center;
   background-size: 1em 1em;
@@ -96,7 +95,7 @@ p {
 .pageContent p {
     text-align: left;
 	font-size: 1.2rem;
-	max-width: 400px;
+	max-width: 600px;
 }
 
 .social a {

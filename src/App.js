@@ -10,6 +10,8 @@ import Rules from './pages/Rules/Rules';
 import Contact from './pages/Contact/Contact'
 import Court from './pages/Court/Court'
 import Equipment from './pages/Equipment/Equipment'
+import Location from './pages/Location/Location'
+import 'animate.css';
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
           <Route path="/court" element={<Court />}>
           </Route>
           <Route path="/equipment" element={<Equipment />}>
+          </Route>
+          <Route path="/location" element={<Location />}>
           </Route>
         </Routes>
       </div>
