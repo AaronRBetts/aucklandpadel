@@ -8,7 +8,7 @@ const Court = () => {
   return (
     <div className='page'>
       <Banner />
-        <h1 className='pageTitle'>Court</h1>
+        <h1 className='pageTitle'>Padel Court</h1>
         <div className='pageWrapper'>
             <div className="pageContent">
 

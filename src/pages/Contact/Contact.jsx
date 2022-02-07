@@ -10,7 +10,7 @@ const Contact = () => {
         <h1 className='pageTitle'>Contact</h1>
       <div className='pageWrapper'>
         <div className="pageContent">
-            <h2>Send us a message for more information on Padel Auckland.</h2>
+            <h3>Send us a message for more information on Padel Auckland.</h3>
             <form action="https://formspree.io/xnqgbwle" method="post"
                 name="portContactForm">
                 <div className="formGroup">
