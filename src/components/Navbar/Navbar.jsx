@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css'
 import Logo from '../../PadelAucklandalt.svg'
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -9,29 +10,17 @@ const Navbar = () => {
         <div>
           <img className='headerLogo' src={Logo}/>
         </div>
-        <div className="navContent">
-          <div className='link'>
-            <a href="#">Home</a>
-          </div>
-          <div className='link'>
-            <a href="#">Rules</a>
-          </div>
-          <div className='link'>
-            <a href="#">Padel Court</a>
-          </div>
-          <div className='link'>
-            <a href="#">Padel Racquets</a>
-          </div>
-          <div className='link'>
-            <a href="#">Padel Balls</a>
-          </div>
-          <div className='link'>
-            <a href="#">Other equipment</a>
-          </div>
-          <div className='link'>
-            <a href="#">Contact</a>
-          </div>
-        </div>
+          <ul className='navContent'>
+            <li>
+              <Link className='link' to="/">Home</Link>
+            </li>
+            <li>
+              <Link className='link' to="/rules">Rules</Link>
+            </li>
+            <li>
+              <Link className='link' to="/contact">Contact</Link>
+            </li>
+          </ul>
       </div>
       <div className='header'>
       </div>

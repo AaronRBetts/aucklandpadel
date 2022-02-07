@@ -10,7 +10,6 @@ import VideoGrid from '../VideoGrid/VideoGrid';
 const Landing = () => {
   return (
   <div>	
-    <Navbar />
     <section class="showcase">
       <div class="video-container">
         <ImagePlayer />

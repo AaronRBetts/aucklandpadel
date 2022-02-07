@@ -1,6 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/magz');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 
+body {
+}
+
 :root {
 	--primary-color: #00ADD2;
 	--secondary-color: #FF5757;
@@ -19,8 +22,8 @@ h1 {
 }
 
 p b {
-  font-size: 1.6rem;
-  color: var(--secondary-color);
+  font-size: 1.4rem;
+  /* color: var(--secondary-color); */
 }
 
 p {
@@ -29,7 +32,10 @@ p {
 }
 
 .App {
+  position: relative;
   text-align: center;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -50,4 +56,42 @@ p {
 
 .App-link {
   color: #61dafb;
+}
+
+.pageContent {
+  margin: auto;
+}
+
+.pageContent p {
+    text-align: left;
+	font-size: 1.2rem;
+	max-width: 400px;
+}
+
+.pageContent h2 {
+	margin: 30px 0;
+	color: var(--primary-color);
+}
+
+.social a {
+	margin: 0 5px;
+}
+
+.seeMore {
+  font-family: 'Magz', sans-serif;
+}
+
+.about, .about > * {
+    z-index: 20;
+}
+
+.about p {
+  margin-bottom: 2em;
+}
+
+.pageContent iframe {
+  margin: 20px auto;
+  width: 80vw;
+  height: 460px;
+  max-width: 800px;
 }

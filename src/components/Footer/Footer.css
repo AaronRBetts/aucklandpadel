@@ -1,12 +1,12 @@
 .footer {
     padding-top: 24px;
-    background-color: var(--primary-color);
+    background-color: var(--dark-primary-color);
     background-image: url('../../background.png');
 }
 
 
 .footer a {
-    color:  var(--dark-primary-color);
+    color:  var(--primary-color);
     font-size: 2rem;
     font-weight: bold;
 }
@@ -20,4 +20,9 @@
     text-align: left;
     margin: auto;
     padding-left: 1em;
+}
+
+.footer h1 {
+    color:  var(--primary-color);
+    font-size: 2rem !important;
 }

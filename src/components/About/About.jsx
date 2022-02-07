@@ -9,13 +9,13 @@ const About = () => {
         <img className="background" src={background}/>
       </div>
 
-      <section id="about">
+      <section id="about" className='pageContent'>
         <div className="about">
           <h1>Padel</h1>
           <p>Padel is a racquet sport that combines the elements of <b>tennis</b> and <b>squash.</b> It is only played in doubles and is practiced outdoors as much as indoors.</p>
           
-          <p>Padel is played like tennis, however the court is enclosed and the glass walls can be used in a similar way as in squash. </p>
-          <p>The balls are similar to tennis balls, and the racquets are similar to an enlarged table tennis bat.</p><br />
+          <p>Padel is played like tennis, however the <b>court is enclosed</b> with glass walls and mesh fencing, the glass walls can be used in a similar way as in squash. </p>
+          <p>The balls are similar to <b>tennis balls</b>, and the racquets are similar to an enlarged table tennis bat.</p><br />
           
           <div className='imageBox'>
             <img src="https://assets.fontsinuse.com/static/use-media-items/77/76256/full-1427x642/5bcd8883/world-padel-tour-master-clas.jpeg" alt="Padel court"/>
@@ -30,20 +30,20 @@ const About = () => {
             <img src="https://hs.mediadelivery.fi/img/some/default/d7fbde975380437c923d7dd37fb3d1b2.jpg" alt="Padel court"/>
             <p><i>Padel in action, Finland</i></p>
           </div><br />
-          <p>Check out <a href="https://www.skysports.com/tennis/news/12110/12156747/ten-things-you-probably-didnt-know-about-padel">this article</a> by Sky sports to learn more about Padel.</p><br />
+          <p>Check out <a href="https://www.skysports.com/tennis/news/12110/12156747/ten-things-you-probably-didnt-know-about-padel">this article</a> by Sky sports to learn more about Padel.</p>
           <p>
-            Extremely fun, social and accessible for all, padel is a breath of fresh air that is revitalizing clubs with an activity complimentary to tennis.</p><br />
+            Extremely fun, social and accessible for all, padel is a breath of fresh air that is revitalizing clubs with an activity complimentary to tennis.</p>
             <p>
-            At competition level, padel is an intense game of physical chess.</p><p>Fast <b>reactions</b>, good <b>decision making</b>, high <b>technical skill</b> and <b>physical stamina</b> are the keys to success.</p><br />
+            At competition level, padel is an intense game of physical chess.</p><p>Fast <b>reactions</b>, good <b>decision making</b>, high <b>technical skill</b> and <b>physical stamina</b> are the keys to success.</p>
             <a className="seeMore" href="https://en.wikipedia.org/wiki/Padel_(sport)">Read more</a><br /><br /><br />
           
             <br /><br /><br />
         </div>
         <div className="about">
           <h1>Padel Auckland</h1>
-          <p>Padel is a worldwide phenomenon, often being referred to as the <b>fastest growing sport</b> in the world.</p><br />
+          <p>Padel is a worldwide phenomenon, often being referred to as the <b>fastest growing sport</b> in the world.</p>
           <p>
-            With New Zealand having such a rich culture in racquet sports, <b>Auckland</b> is an excellent choice to introduce to the intriguing sport of Padel.</p><br />
+            With New Zealand having such a rich culture in racquet sports, <b>Auckland</b> is an excellent choice to introduce to the intriguing sport of Padel.</p>
           <p>Stay up to date with <b><a href="https://instagram.com/padelauckland">Padel Auckland</a></b> to find out when and where Padel is coming.
           </p><br />
           <h1>Padel promotional videos</h1>
