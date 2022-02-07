@@ -8,11 +8,28 @@ body {
 	--primary-color: #00ADD2;
 	--secondary-color: #FF5757;
   --dark-primary-color: #004AAD;
+  font-size: 0.8rem;
 }
 
 h1 {
   font-family: 'Magz', sans-serif;
   color:  var(--dark-primary-color);
+  background: url('./logo_small.png') no-repeat;
+  background-position: left center;
+  background-size: 1em 1em;
+  padding-left: 2em;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: 'Magz', sans-serif;
+  background: url('./logo_small.png') no-repeat;
+  color:  var(--dark-primary-color);
+  background-position: left center;
+  background-size: 1em 1em;
+  padding-left: 2em;
+  font-weight: 100;
 }
 
 .link {
@@ -34,7 +51,6 @@ p {
 .App {
   position: relative;
   text-align: center;
-  width: 100vw;
   overflow: hidden;
 }
 
@@ -59,6 +75,8 @@ p {
 }
 
 .pageContent {
+  padding-left: 1em;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -66,11 +84,6 @@ p {
     text-align: left;
 	font-size: 1.2rem;
 	max-width: 400px;
-}
-
-.pageContent h2 {
-	margin: 30px 0;
-	color: var(--primary-color);
 }
 
 .social a {
