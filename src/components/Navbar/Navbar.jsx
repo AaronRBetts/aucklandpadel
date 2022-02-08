@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Navbar.css'
+import { useLocation } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,6 +11,11 @@ function Navbar() {
   const toggleNav = () => {
     setToggleMenu(!toggleMenu)
   }
+
+    const location = useLocation();
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [location]);
 
     return (
     <nav role="navigation" className={toggleMenu ? 'nav expanded-mobile-menu': 'nav'}>
