@@ -15,14 +15,19 @@ There used to be a menu icon loaded as a (part of a wasteful) font here. It isn'
 }
 
 .icon-menu:before {
-  content: "🍔";
+  font-family: 'magz', sans-serif;
+  content: "Padel Auckland";
 }
 
 body {
   font-family: "Quattrocento Sans", Helmet, Freesans, Tahoma, Geneva, sans-serif;
 }
 
-a {
+button {
+  padding-left: 1em;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+  height: 5rem;
+  border: none;
   -moz-transition: color 100ms ease-in-out, background 100ms ease-in-out;
   -o-transition: color 100ms ease-in-out, background 100ms ease-in-out;
   -webkit-transition: color 100ms ease-in-out, background 100ms ease-in-out;
@@ -41,18 +46,20 @@ a {
 .nav .menu-toggle {
   position: relative;
   z-index: 2;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin: 0;
-  padding: 0.5em 0;
-  background-color: #ddc;
+  background-color: var(--dark-primary-color);
   text-decoration: none;
   text-align: center;
-  font-size: 1.4em;
-  color: #333;
+  font-size: 2em;
+  color: var(--primary-color);
+  width: 100%;
 }
 .nav .menu-toggle:hover, .nav .menu-toggle:focus {
   color: #eee;
-  background-color: white;
+  background-color: var(--primary-color);
 }
 .nav .menu-toggle-text {
   font-size: 0.55em;
@@ -123,9 +130,7 @@ a {
   transition: max-height 800ms ease-in, min-height 500ms ease-out, padding 400ms ease-in;
   /*min/max heights allow me to css transition to height auto for WordPress menus with unknown number of items*/
   clip: auto;
-  min-height: 8em;
   max-height: 100em;
-  padding: 0.5em 0;
 }
 
 @media only screen and (min-width: 30.1em) {
@@ -133,6 +138,8 @@ a {
   .menu li {
     float: left;
     width: 50%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
 }
 @media only screen and (min-width: 48em) {
