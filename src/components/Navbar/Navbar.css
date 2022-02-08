@@ -16,7 +16,7 @@ There used to be a menu icon loaded as a (part of a wasteful) font here. It isn'
 
 .icon-menu:before {
   font-family: 'magz', sans-serif;
-  content: "Padel Auckland";
+  content: "";
 }
 
 body {
@@ -24,7 +24,7 @@ body {
 }
 
 button {
-  padding-left: 1em;
+  margin: auto;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
   height: 5rem;
   border: none;
@@ -49,13 +49,16 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0;
+  margin: auto;
   background-color: white;
   text-decoration: none;
   text-align: center;
   font-size: 2em;
   color: var(--primary-color);
   width: 100%;
+}
+.nav .menu-toggle svg {
+  margin: auto;
 }
 /* .nav .menu-toggle:hover, .nav .menu-toggle:focus {
   color: #eee;
@@ -107,6 +110,7 @@ button {
   text-decoration: none;
   text-align: center;
   font-size: 1.2em;
+  letter-spacing: 0.3em;
   color: var(--dark-primary-color);
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -180,7 +184,7 @@ button {
   .menu li a,
   .no-js .menu li a,
   .expanded-mobile-menu li a {
-    padding: 0.3em 1em;
+    padding: 0.3em 2em;
     color: var(--dark-primary-color);
   }
   .menu li a:hover, .menu li a:focus,
@@ -297,3 +301,7 @@ button {
   /* end .menu */
 }
 /* end media query*/
+.headerLogo {
+  height: 3em;
+  margin: 1em auto 0 auto;
+}

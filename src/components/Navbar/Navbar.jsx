@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import logo from '../../PadelAucklandalt.svg'
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -19,12 +20,14 @@ function Navbar() {
 
     return (
     <nav role="navigation" className={toggleMenu ? 'nav expanded-mobile-menu': 'nav'}>
-  
         <button className="menu-toggle" onClick={toggleNav}>
           <FontAwesomeIcon icon={faBars} />
           <span aria-hidden="true" className="icon-menu"></span><span className="menu-toggle-text"></span>
         </button>
             <ul id="main-menu" className={toggleMenu ? 'top-nav menu clearfix expanded-mobile-menu': 'top-nav menu clearfix'}>
+        <div className='headerLogoWrapper'>
+          <img src={logo} alt="Padel Auckland alternate logo" className='headerLogo'/>
+        </div>
               <li className='menu-item' onClick={toggleNav}>
                 <Link className='link animate__animated animate__fadeIn' to="/">Home</Link>
               </li>
