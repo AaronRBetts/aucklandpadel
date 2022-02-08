@@ -35,7 +35,7 @@ h3 {
 
 h2 {
   margin: auto;
-  text-align: center;
+  text-align: left;
   font-family: 'Magz', sans-serif;
   color:  var(--dark-primary-color);
   background-position: left center;
