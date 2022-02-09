@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Landing from './components/Landing/Landing'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -16,14 +16,14 @@ import 'animate.css';
 function App() {
   return (
     <div className="App">
-    <Router>
+    <Router basename="/">
       <div>
         <nav>
           <Navbar />
         </nav>
         
         <Routes>
-          <Route path="/" element={<Landing />}>
+          <Route exact path="/" element={<Landing />}>
           </Route>
           <Route path="/contact" element={<Contact />}>
           </Route>
