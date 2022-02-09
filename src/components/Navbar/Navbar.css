@@ -78,6 +78,9 @@ button {
 .no-fontface .nav .icon-menu:before {
   display: none;
 }
+.menu .mobileHidden {
+  display: none;
+}
 
 /* .menu is visually hidden by default */
 .menu {
@@ -99,9 +102,6 @@ button {
   -webkit-transition: max-height 600ms ease-out, min-height 600ms ease-in, padding 600ms ease-in;
   transition: max-height 600ms ease-out, min-height 600ms ease-in, padding 600ms ease-in;
   /* end .menu li */
-}
-.menu li {
-  /* no sub menus for mobile */
 }
 .menu li a, .link {
   cursor: default;
@@ -148,6 +148,9 @@ button {
 @media only screen and (min-width: 48em) {
   .nav .menu-toggle {
     display: none;
+  }
+  .menu .mobileHidden {
+    display: initial;
   }
 
   .menu,
