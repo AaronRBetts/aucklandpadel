@@ -38,7 +38,7 @@ function Navbar() {
                 <Link className='link animate__animated animate__fadeIn' to="/location">Location</Link>
               </li>
               <li className='menu-item' onClick={toggleNav}>
-                <Link className='link animate__animated animate__fadeIn' to="/equipment">Information</Link>
+                <div className='div animate__animated animate__fadeIn link'>Information</div>
                 <ul className="sub-menu">
                   <li className='menu-item' onClick={toggleNav}>
                     <Link className='link animate__animated animate__fadeIn' to="/rules">Rules</Link>

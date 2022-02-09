@@ -20,23 +20,19 @@ const About = () => {
             <p>Padel is played like tennis, however the <b>court is enclosed</b> with glass walls and mesh fencing, the glass walls can be used in a similar way as in squash. </p>
             <p>The balls are similar to <b>tennis balls</b>, and the racquets are similar to an enlarged table tennis bat.</p><br />
             
-          </div>   
-            <div className='imageBox'>
-              <img src={WPTCourt} alt="Padel court"/>
-            </div>
-          <div className='pageContent'>
-              <p><i>World Padel Tour Finals</i></p><br />
+          <div className='imageBox'>
+            <img src="https://e1.365dm.com/20/12/2048x1152/skysports-padel-lta_5200829.jpg" alt="Padel court"/>
+          </div>
+            <p><i>Padel in action, Finland</i></p><br />
 
             <p>
             The sport became very popular in Spain, which has been the professional circuit host of the <b><a href="https://www.worldpadeltour.com/">World Padel Tour</a></b> where it has been played since 2005.</p><br />
             <p> Over the course of the past 10 years, padel has begun to spread rapidly to the rest of <b>Europe</b>, the <b>Middle East</b>, and the <b>United States</b>.
             </p><br />
-          </div> 
-          <div className='imageBox'>
-            <img src={gameplay} alt="Padel court"/>
-          </div>
-        <div className='pageContent'>
-            <p><i>Padel in action, Finland</i></p><br />
+            <div className='imageBox'>
+              <img src="https://www.worldpadeltour.com/media-content/2016/03/Master_1-1.jpg" alt="Padel court"/>
+            </div>
+              <p><i>World Padel Tour Finals</i></p><br />
           <p>Check out <a href="https://www.skysports.com/tennis/news/12110/12156747/ten-things-you-probably-didnt-know-about-padel">this article</a> by Sky sports to learn more about Padel.</p>
           <p>
             Extremely fun, social and accessible for all, padel is a breath of fresh air that is revitalizing clubs with an activity complimentary to tennis.</p>

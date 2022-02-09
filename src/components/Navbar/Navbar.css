@@ -103,9 +103,10 @@ button {
 .menu li {
   /* no sub menus for mobile */
 }
-.menu li a {
+.menu li a, .link {
+  cursor: default;
   display: block;
-  padding: 2em 0;
+  padding: 1em 0;
   background-color: transparent;
   text-decoration: none;
   text-align: center;
