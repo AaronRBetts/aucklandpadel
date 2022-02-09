@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aucklandpadel/static/css/main.45b1754f.css",
-    "main.js": "/aucklandpadel/static/js/main.a55b35af.js",
+    "main.js": "/aucklandpadel/static/js/main.04138706.js",
     "static/js/787.0979307a.chunk.js": "/aucklandpadel/static/js/787.0979307a.chunk.js",
     "static/media/WPTCourt.png": "/aucklandpadel/static/media/WPTCourt.787757690a69ca637527.png",
     "static/media/gameplay.png": "/aucklandpadel/static/media/gameplay.fd5f7bf41f6c044dbb96.png",
@@ -14,11 +14,11 @@
     "static/media/logo_small.png": "/aucklandpadel/static/media/logo_small.6491c3baeeee5507432d.png",
     "index.html": "/aucklandpadel/index.html",
     "main.45b1754f.css.map": "/aucklandpadel/static/css/main.45b1754f.css.map",
-    "main.a55b35af.js.map": "/aucklandpadel/static/js/main.a55b35af.js.map",
+    "main.04138706.js.map": "/aucklandpadel/static/js/main.04138706.js.map",
     "787.0979307a.chunk.js.map": "/aucklandpadel/static/js/787.0979307a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45b1754f.css",
-    "static/js/main.a55b35af.js"
+    "static/js/main.04138706.js"
   ]
 }
