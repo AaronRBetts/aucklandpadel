@@ -15,8 +15,8 @@ import 'animate.css';
 
 function App() {
   return (
-    <div className="App">
     <Router>
+    <div className="App">
       <div>
         <nav>
           <Navbar />
@@ -37,8 +37,8 @@ function App() {
           </Route>
         </Routes>
       </div>
-    </Router>
     </div>
+    </Router>
   );
 }
 
