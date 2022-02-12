@@ -21,8 +21,8 @@ const Footer = () => {
                             src="https://maps.google.com/maps?q=auckland,%20new%20zealand&t=&z=13&ie=UTF8&iwloc=&output=embed" 
                             frameborder="0" 
                             scrolling="no" 
-                            marginheight="0" 
-                            marginwidth="0"></iframe></div></div>
+                            marginHeight="0" 
+                            marginWidth="0"></iframe></div></div>
                     </div>
                     {/* <div className="item">
                         <h3>Services</h3>

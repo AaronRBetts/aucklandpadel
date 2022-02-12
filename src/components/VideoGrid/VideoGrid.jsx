@@ -4,9 +4,9 @@ import Video from './Video/Video'
 
 const VideoGrid = () => {
   return (
-    <section class="videos" id="featured-videos">
-    <div class="video-grid front-page" id="front-page-videos">
-      <ul class="video-list featured">
+    <section className="videos" id="featured-videos">
+    <div className="video-grid front-page" id="front-page-videos">
+      <ul className="video-list featured">
           <Video 
           href={"https://www.youtube.com/embed/E2YEYRI_mpk"}
           title={"UK based iPadel promotional video"}/>
