@@ -16,7 +16,7 @@ import 'animate.css';
 function App() {
   return (
     <div className="App">
-    <Router basename="/">
+    <Router>
       <div>
         <nav>
           <Navbar />
