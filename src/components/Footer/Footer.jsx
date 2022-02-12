@@ -14,7 +14,7 @@ const Footer = () => {
                         <h3>location</h3>
                         <div className="mapouter">
                           <div className="gmap_canvas">
-                            <iframe 
+                            <iframe title="google maps location"
                             width="400" 
                             height="300" 
                             id="gmap_canvas" 

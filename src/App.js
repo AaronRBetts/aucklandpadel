@@ -15,7 +15,7 @@ import 'animate.css';
 
 function App() {
   return (
-    <Router>
+    <Router  basename={'/aucklandpadel'}>
     <div className="App">
       <div>
         <nav>

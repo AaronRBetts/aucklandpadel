@@ -4,7 +4,7 @@ import './Banner.css'
 
 const Banner = () => {
   return (
-    <img className='banner' src={bannerBg}/>
+    <img className='banner' src={bannerBg} alt="homepage banner"/>
   );
 };
 

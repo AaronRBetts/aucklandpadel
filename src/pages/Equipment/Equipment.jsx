@@ -2,7 +2,6 @@ import React from 'react';
 import Banner from '../../components/Banner/Banner';
 import '../pages.css'
 import Footer from '../../components/Footer/Footer';
-import rackets from '../../rackets.png'
 
 const Equipment = () => {
   return (

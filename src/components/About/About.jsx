@@ -1,14 +1,12 @@
 import React from 'react';
 import './About.css';
 import background from '../../background.png'
-import WPTCourt from '../../WPTCourt.png'
-import gameplay from '../../gameplay.png'
 
 const About = () => {
   return (
     <div>
       <div className='imageContainer'>
-        <img className="background" src={background}/>
+        <img className="background" src={background} alt="padel auckland homepage background"/>
       </div>
 
       <section id="about">
