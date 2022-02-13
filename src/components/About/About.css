@@ -17,10 +17,12 @@
 }
 
 .imageBox {
+  margin-top: 3em;
   width: auto;
 }
 
 .imageBox img {
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
   width: 100%;
 }
 

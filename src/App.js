@@ -10,7 +10,7 @@ import Rules from './pages/Rules/Rules';
 import Contact from './pages/Contact/Contact'
 import Court from './pages/Court/Court'
 import Equipment from './pages/Equipment/Equipment'
-import Location from './pages/Location/Location'
+import Locations from './pages/Locations/Locations'
 import 'animate.css';
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
           </Route>
           <Route path="/equipment" element={<Equipment />}>
           </Route>
-          <Route path="/location" element={<Location />}>
+          <Route path="/locations" element={<Locations />}>
           </Route>
         </Routes>
       </div>
