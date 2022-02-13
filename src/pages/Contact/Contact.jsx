@@ -11,7 +11,7 @@ const Contact = () => {
       <div className='pageWrapper'>
         <div className="pageContent">
             <h3>Send us a message for more information on Padel Auckland.</h3>
-            <form action="https://formspree.io/xnqgbwle" method="post"
+            <form action="https://formspree.io/xnqgbwle" method="post" 
                 name="portContactForm">
                 <div className="formGroup">
                     <input name="Name" type="text" className="form-control" placeholder="Name" />

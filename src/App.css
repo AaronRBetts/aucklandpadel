@@ -35,12 +35,13 @@ h3 {
 
 h2 {
   margin: auto;
+  letter-spacing: 0.05em;
   text-align: left;
   font-family: 'Magz', sans-serif;
   color:  var(--dark-primary-color);
   background-position: left center;
   background-size: 1em 1em;
-  padding: 2em 2em;
+  padding: 2em 0;
   font-weight: 100;
   font-size: 3rem;
 }
@@ -52,13 +53,13 @@ h2 {
 }
 
 p b {
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
   /* color: var(--secondary-color); */
 }
 
 p {
   font-family: "Open Sans", Sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .App {
@@ -112,7 +113,7 @@ p {
 }
 
 .about p {
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
 }
 
 .pageContent iframe {

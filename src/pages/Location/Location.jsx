@@ -7,34 +7,26 @@ const Location = () => {
   return (
     <div className='page'>
       <Banner />
-        <h1 className='pageTitle'>Location</h1>
+      <h1 className='pageTitle'>Location</h1>
+      <h3 className='pageTitle'>Padel Auckland are searching for the right location, stay tuned and follow us on social media to stay up to date!</h3>
       <div className='pageWrapper'>
         <div className="pageContent">
-            <h3>Send us a message for more information on Padel Auckland.</h3>
-            <form action="https://formspree.io/xnqgbwle" method="post"
-                name="portLocationForm">
-                <div className="formGroup">
-                    <input name="Name" type="text" className="form-control" placeholder="Name" />
-                </div>
-                <div className="formGroup">
-                    <input name="Email" type="text" className="form-control"
-                        placeholder="Email" />
-                </div>
-                <div className="formGroup">
-                    <input name="Subject" type="text" className="form-control"
-                        placeholder="Subject" />
-                </div>
-                <div className="formGroup">
-                    <textarea name="Message" id="message" cols="30" rows="7"
-                        className="form-control"
-                        placeholder="I'd like to get in touch"></textarea>
-                </div>
-                <div className="formGroup">
-                    <input type="submit" class="btn btn-primary btn-send-message"
-                        value="Send Message" />
-                </div>
-            </form>
-            
+          <h3>location</h3>
+          <div className="mapouter">
+            <div className="gmap_canvas">
+              <iframe title="google maps location"
+              width="auto" 
+              height="auto" 
+              id="gmap_canvas" 
+              src="https://maps.google.com/maps?q=auckland,%20new%20zealand&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+              frameborder="0" 
+              scrolling="no" 
+              marginHeight="0" 
+              marginWidth="0">
+
+              </iframe>
+            </div>
+          </div>            
         </div>
       </div>
       <Footer />
