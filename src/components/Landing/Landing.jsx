@@ -16,7 +16,7 @@ const Landing = () => {
       </div>
       <div className="content">
         <img className="logo animate__animated animate__fadeIn" alt="padel auckland logo" src={Logo}/>
-        <h3><i>"Padel combines elements of tennis and squash. it's fun and easy as a beginner, but challenging to master"</i></h3>
+        <h3><i>"Padel combines elements of tennis and squash, it's easy to play, fun and sociable!"</i></h3>
         {/* <a href="#about" className="btn">Learn More</a> */}
       </div>
     </section>
