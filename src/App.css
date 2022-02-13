@@ -13,7 +13,7 @@ body {
 
 h1 {
   font-family: 'Magz', sans-serif;
-  color:  var(--dark-primary-color);
+  color:  white;
   /* background: url('./logo_small.png') no-repeat; */
   background-position: left center;
   background-size: 1em 1em;
