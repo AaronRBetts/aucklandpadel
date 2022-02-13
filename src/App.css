@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/magz');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 body {
 }
 
@@ -23,7 +23,7 @@ h1 {
 
 h3 {
   letter-spacing: 0.1em;
-  font-family: 'Magz', sans-serif;
+  font-family: 'Anton', sans-serif;
   background: url('./logo_small.png') no-repeat;
   color:  var(--dark-primary-color);
   background-position: left center;
@@ -34,22 +34,22 @@ h3 {
 }
 
 h2 {
+  font-family: 'Anton', sans-serif;
   margin: auto;
-  letter-spacing: 0.05em;
+  /* letter-spacing: 0.05em; */
   text-align: left;
-  font-family: 'Magz', sans-serif;
+  /* font-family: 'Magz', sans-serif; */
   color:  var(--dark-primary-color);
   background-position: left center;
   background-size: 1em 1em;
   padding: 2em 0;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 3rem;
 }
 
 .link {
   font-family: 'Magz', sans-serif;
   font-weight: lighter;
-  color: white;
 }
 
 p b {
