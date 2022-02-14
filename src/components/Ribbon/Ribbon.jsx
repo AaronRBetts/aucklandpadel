@@ -1,8 +1,8 @@
 import React from 'react'
 import './Ribbon.css'
-import imgSocial from '../../people.png'
-import imgEasy from '../../swing.png'
-import imgFun from '../../celebrating.png'
+// import imgSocial from '../../people.png'
+// import imgEasy from '../../swing.png'
+// import imgFun from '../../celebrating.png'
 
 const Ribbon = () => {
   return (
