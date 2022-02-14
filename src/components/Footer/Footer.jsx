@@ -50,8 +50,8 @@ const Footer = () => {
                         <p className="copyright">
                         <img alt="Padel Auckland logo" src={logo}/></p>
                     <a href="https://instagram.com/padelauckland"><FontAwesomeIcon icon={faInstagram} /></a>
-                        <Link to="https://twitter.com/maraetaiblue?lang=fi"><FontAwesomeIcon icon={faFacebook} /></Link>
-                        <p className="copyright">Website from <a href="https://AaronRBetts.github.io/">Aaron Betts</a></p>
+                        <Link to="https://instagram.com/padelauckland"><FontAwesomeIcon icon={faFacebook} /></Link>
+                        <p className="copyright">Website by <a href="https://AaronRBetts.github.io/">Aaron Betts</a></p>
                     </div>
                 </div>
             </div>
