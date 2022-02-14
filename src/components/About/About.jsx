@@ -13,10 +13,10 @@ const About = () => {
         <div className="about">
           <div className='pageContent'>
             <h2>Padel</h2>
-            <p>Padel is a racquet sport that combines the elements of <b>tennis</b> and <b>squash.</b> It is only played in doubles and is practiced outdoors as much as indoors.</p>
+            <p>Padel is a racquet sport that combines the elements of <b>tennis and squash.</b> It is only played in doubles and is practiced outdoors as much as indoors.</p>
             
             <p>Padel is played like tennis, however the <b>court is enclosed</b> with glass walls and mesh fencing, the glass walls can be used in a similar way as in squash. </p>
-            <p>The balls are similar to <b>tennis balls</b>, and the racquets are similar to an enlarged table tennis bat.</p><br />
+            <p>The <b>balls are similar to tennis balls</b>, and the racquets are similar to an enlarged table tennis bat.</p><br />
             
           <div className='imageBox'>
             <img src="https://e1.365dm.com/20/12/2048x1152/skysports-padel-lta_5200829.jpg" alt="Padel court"/>
@@ -25,7 +25,7 @@ const About = () => {
 
             <p>
             The sport became very popular in Spain, which has been the professional circuit host of the <b><a href="https://www.worldpadeltour.com/">World Padel Tour</a></b> where it has been played since 2005.</p><br />
-            <p> Over the course of the past 10 years, padel has begun to spread rapidly to the rest of <b>Europe</b>, the <b>Middle East</b>, and the <b>United States</b>.
+            <p> Over the course of the past 10 years, padel has begun to spread rapidly to the rest of <b>Europe, the Middle East, and the United States</b>.
             </p><br />
             <div className='imageBox'>
               <img src="https://www.worldpadeltour.com/media-content/2016/03/Master_1-1.jpg" alt="Padel court"/>
@@ -35,7 +35,7 @@ const About = () => {
           <p>
             Extremely fun, social and accessible for all, padel is a breath of fresh air that is revitalizing clubs with an activity complimentary to tennis.</p>
             <p>
-            At competition level, padel is an intense game of physical chess.</p><p>Fast <b>reactions</b>, good <b>decision making</b>, high <b>technical skill</b> and <b>physical stamina</b> are the keys to success.</p>
+            At competition level, padel is an intense game of physical chess.</p><p>Fast <b>reactions</b>, good <b>decision making, high technical skill and physical stamina</b> are the keys to success.</p>
             <a className="seeMore" href="https://en.wikipedia.org/wiki/Padel_(sport)">Read more</a><br /><br /><br />
           
             <br /><br /><br />
