@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import background from '../../background.png'
+import Ribbon from '../Ribbon/Ribbon';
 
 const About = () => {
   return (
@@ -17,7 +18,9 @@ const About = () => {
             
             <p>Padel is played like tennis, however the <b>court is enclosed with glass walls and mesh fencing</b>, the glass walls can be used in a similar way as in squash. </p>
             <p>The <b>balls are similar to tennis balls</b>, and the <b>rackets are similar to an enlarged table tennis bat.</b></p><br />
-            
+            </div>
+            <Ribbon />
+          <div className='pageContent'>
           <div className='imageBox'>
             <img src="https://e1.365dm.com/20/12/2048x1152/skysports-padel-lta_5200829.jpg" alt="Padel court"/>
           </div>
