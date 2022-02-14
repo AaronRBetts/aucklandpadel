@@ -35,7 +35,7 @@ const About = () => {
           <p>
             Extremely fun, social and accessible for all, padel is a breath of fresh air that is revitalizing clubs with an activity complimentary to tennis.</p>
             <p>
-            At competition level, padel is an intense game of physical chess.</p><p>Fast <b>reactions</b>, good <b>decision making, high technical skill and physical stamina</b> are the keys to success.</p>
+            At competition level, padel is an intense game of physical chess.</p><p><b>Fast reactions, good decision making, high technical skill and physical stamina</b> are the keys to success.</p>
             <a className="seeMore" href="https://en.wikipedia.org/wiki/Padel_(sport)">Read more</a><br /><br /><br />
           
             <br /><br /><br />
