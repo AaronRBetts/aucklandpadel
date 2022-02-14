@@ -21,8 +21,11 @@
   width: auto;
 }
 
-.imageBox img {
+.about .imageBox img {
   box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
+}
+
+.imageBox img {
   width: 100%;
 }
 
