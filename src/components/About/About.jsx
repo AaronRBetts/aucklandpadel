@@ -13,10 +13,10 @@ const About = () => {
         <div className="about">
           <div className='pageContent'>
             <h2>Padel</h2>
-            <p>Padel is a racquet sport that combines the elements of <b>tennis and squash.</b> It is only played in doubles and is practiced outdoors as much as indoors.</p>
+            <p>Padel is a racquet sport that combines the elements of <b>tennis and squash.</b> It is only <b>played in doubles</b> and is practiced outdoors as much as indoors.</p>
             
-            <p>Padel is played like tennis, however the <b>court is enclosed</b> with glass walls and mesh fencing, the glass walls can be used in a similar way as in squash. </p>
-            <p>The <b>balls are similar to tennis balls</b>, and the racquets are similar to an enlarged table tennis bat.</p><br />
+            <p>Padel is played like tennis, however the <b>court is enclosed with glass walls and mesh fencing</b>, the glass walls can be used in a similar way as in squash. </p>
+            <p>The <b>balls are similar to tennis balls</b>, and the <b>rackets are similar to an enlarged table tennis bat.</b></p><br />
             
           <div className='imageBox'>
             <img src="https://e1.365dm.com/20/12/2048x1152/skysports-padel-lta_5200829.jpg" alt="Padel court"/>
