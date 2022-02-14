@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Landing from './components/Landing/Landing'
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
