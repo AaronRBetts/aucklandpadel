@@ -25,7 +25,7 @@ const Ribbon = () => {
                 <h2 className="pricing-header">Easy</h2>
                 {/* <img src={imgEasy} alt="" className="pricing-img"/> */}
                 <ul className="pricing-features">
-                <li className="pricing-features-item"><p>Anyone can pick up Padel and start having fun. The serve is underarm, the racket is easy to manouver and aim, and the enclosure </p><br />
+                <li className="pricing-features-item"><p>Anyone can pick up Padel and start having fun. The serve is underarm, the racket is easy to manouver and aim, and the rebound walls keep the ball in the court.</p><br />
                 <p>All you need are sports clothes &amp; shoes, a racket, some padel balls, a few friends, and finally, a court. Then you're ready to go!</p>
                 </li>
                 </ul>

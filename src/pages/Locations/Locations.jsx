@@ -8,7 +8,7 @@ const Locations = () => {
     <div className='page'>
       <Banner />
       <h1 className='pageTitle'>Locations</h1>
-      <h3 className='pageTitle'>Padel Auckland are searching for the right locations, stay tuned and follow us on social media to stay up to date!</h3>
+      <p className='pageTitle'><b>Padel Auckland are searching for the right locations, stay tuned and follow us on social media to stay up to date!</b></p>
       <div className='pageWrapper'>
         <div className="pageContent">
           {/* <h3>location</h3>
