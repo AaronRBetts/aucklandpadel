@@ -7,7 +7,7 @@ import './Ribbon.css'
 const Ribbon = () => {
   return (
     <div class="backgroundRibbon">
-        <div className="container">
+        <div className="ribbonContainer">
             <div className="panel pricing-table">
             
             <div className="pricing-plan">
