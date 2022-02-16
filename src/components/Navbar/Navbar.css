@@ -94,9 +94,9 @@ button {
   max-height: 1px;
   min-height: 0;
   clip: rect(0 0 0 0);
-  -moz-box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2), 0 10px 30px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2), 0 10px 30px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2), 0 10px 30px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2);
   -moz-transition: max-height 600ms ease-out, min-height 600ms ease-in, padding 600ms ease-in;
   -o-transition: max-height 600ms ease-out, min-height 600ms ease-in, padding 600ms ease-in;
   -webkit-transition: max-height 600ms ease-out, min-height 600ms ease-in, padding 600ms ease-in;
