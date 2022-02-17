@@ -111,7 +111,7 @@ button {
   text-decoration: none;
   text-align: center;
   font-size: 1.2em;
-  letter-spacing: 0.3em;
+  /* letter-spacing: 0.3em; */
   color: var(--dark-primary-color);
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
