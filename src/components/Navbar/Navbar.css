@@ -164,9 +164,18 @@ button {
     border-radius: 0;
     overflow: visible;
     background: white;
-    -moz-box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2), 0 10px 30px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2), 0 10px 30px rgba(0, 0, 0, 0.5);
-    box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2), 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s;
+    -moz-box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .menu:hover,
+  .no-js .menu:hover,
+  .expanded-mobile-menu:hover {
+    -moz-box-shadow: inset 0 0 0px 3px rgba(0, 0, 0, 0.0), 0 10px 10px rgba(0, 0, 0, 0.0);
+    -webkit-box-shadow: inset 0 0 0px 3px rgba(0, 0, 0, 0.0), 0 10px 10px rgba(0, 0, 0, 0.0);
+    box-shadow: inset 0 0 0px 3px rgba(0, 0, 0, 0.0), 0 10px 10px rgba(0, 0, 0, 0.0);
   }
   .menu li,
   .no-js .menu li,
