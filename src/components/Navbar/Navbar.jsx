@@ -25,9 +25,9 @@ function Navbar() {
           <span aria-hidden="true" className="icon-menu"></span><span className="menu-toggle-text"></span>
         </button>
             <ul id="main-menu" className={toggleMenu ? 'top-nav menu clearfix expanded-mobile-menu': 'top-nav menu clearfix'}>
-        <div className='headerLogoWrapper'>
+        {/* <div className='headerLogoWrapper'>
           <img src={logo} alt="Padel Auckland alternate logo" className='headerLogo'/>
-        </div>
+        </div> */}
               <li className='menu-item' onClick={toggleNav}>
                 <Link className='link animate__animated animate__fadeIn' to="/">Home</Link>
               </li>

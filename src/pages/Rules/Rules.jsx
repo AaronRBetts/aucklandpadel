@@ -14,7 +14,7 @@ const Rules = () => {
           <h2>Padel rules</h2>
           <p>The rules in Padel are similar as in tennis, however there are additional rules that cover the rebound walls.</p><br />
           <p>The game is played primarily in doubles, with 2 players on each side of the court.</p><br />
-          <p>The serve is hit underarm, and typically both pairs move together to either the more aggressive net position or the more defencive back position.</p><br />
+          <p>The serve is hit underarm, and typically both pairs move together to either the more aggressive net position or the more defensive back position.</p><br />
           <p></p><br />
           <h2>Scoring</h2>
           <p>The scoring is the same as tennis, the points increment as; 15, 30, 40, then game. Deuce is played at 40-40, and golden point is often enforced.</p><br />

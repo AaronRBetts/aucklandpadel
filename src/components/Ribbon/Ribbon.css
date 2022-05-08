@@ -98,7 +98,7 @@ border-bottom: none;
 @media (min-width: 900px) {
 .pricing-plan {
     border-bottom: none;
-    border-right: 1px solid #e1f1ff;
+    /* border-right: 1px solid #e1f1ff; */
     flex-basis: 100%;
     padding: 25px 50px;
 }
@@ -132,10 +132,6 @@ letter-spacing: 1px;
 font-weight: 600;
 letter-spacing: 1px;
 margin: 50px 0 25px;
-}
-
-.pricing-features:hover {
-    background: white;
 }
 
 .pricing-features-item {
