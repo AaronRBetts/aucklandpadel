@@ -22,9 +22,6 @@
     "react-snap": "^1.13.1",
     "web-vitals": "^2.1.4"
   },
-  "reactSnap": {
-    "puppeteerExecutablePath": "/usr/bin/google-chrome-stable"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
