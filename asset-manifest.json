@@ -1,24 +1,23 @@
 {
-  "files": {
-    "main.css": "/aucklandpadel/static/css/main.45b1754f.css",
-    "main.js": "/aucklandpadel/static/js/main.126c5b07.js",
-    "static/js/787.0979307a.chunk.js": "/aucklandpadel/static/js/787.0979307a.chunk.js",
-    "static/media/WPTCourt.png": "/aucklandpadel/static/media/WPTCourt.787757690a69ca637527.png",
-    "static/media/gameplay.png": "/aucklandpadel/static/media/gameplay.fd5f7bf41f6c044dbb96.png",
-    "static/media/padelCourt.png": "/aucklandpadel/static/media/padelCourt.cefb36ad8e0ef3bde67a.png",
-    "static/media/rackets.png": "/aucklandpadel/static/media/rackets.94db8c441cbb5ee459ed.png",
-    "static/media/pageBanner.png": "/aucklandpadel/static/media/pageBanner.69ea2538a8483ad19a34.png",
-    "static/media/background.png": "/aucklandpadel/static/media/background.0eb51f9d7f966cce8d03.png",
-    "static/media/PadelAucklandalt.svg": "/aucklandpadel/static/media/PadelAucklandalt.225e2b550547003a2a53af49a173e2c9.svg",
-    "static/media/PadelAuckland.svg": "/aucklandpadel/static/media/PadelAuckland.4d7b2f8f4da41c5a9080c14055d74f32.svg",
-    "static/media/logo_small.png": "/aucklandpadel/static/media/logo_small.6491c3baeeee5507432d.png",
-    "index.html": "/aucklandpadel/index.html",
-    "main.45b1754f.css.map": "/aucklandpadel/static/css/main.45b1754f.css.map",
-    "main.126c5b07.js.map": "/aucklandpadel/static/js/main.126c5b07.js.map",
-    "787.0979307a.chunk.js.map": "/aucklandpadel/static/js/787.0979307a.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.45b1754f.css",
-    "static/js/main.126c5b07.js"
-  ]
+  "main.css": "/static/css/main.e70a72eb.chunk.css",
+  "main.js": "/static/js/main.b166460b.chunk.js",
+  "main.js.map": "/static/js/main.b166460b.chunk.js.map",
+  "static/js/1.6d901b3e.chunk.js": "/static/js/1.6d901b3e.chunk.js",
+  "static/js/1.6d901b3e.chunk.js.map": "/static/js/1.6d901b3e.chunk.js.map",
+  "static/css/2.75394a6a.chunk.css": "/static/css/2.75394a6a.chunk.css",
+  "static/js/2.484b2d04.chunk.js": "/static/js/2.484b2d04.chunk.js",
+  "static/js/2.484b2d04.chunk.js.map": "/static/js/2.484b2d04.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.2600f86d.js",
+  "runtime~main.js.map": "/static/js/runtime~main.2600f86d.js.map",
+  "static/media/App.css": "/static/media/logo_small.f82a43d9.png",
+  "static/media/PadelAuckland.svg": "/static/media/PadelAuckland.219cf134.svg",
+  "static/media/background.png": "/static/media/background.6ed03ede.png",
+  "static/media/pageBanner.png": "/static/media/pageBanner.56fb9acf.png",
+  "static/media/padelCourt.png": "/static/media/padelCourt.81a73e0e.png",
+  "static/media/Ribbon.css": "/static/media/PadelAucklandalt.b2203eb0.svg",
+  "static/css/main.e70a72eb.chunk.css.map": "/static/css/main.e70a72eb.chunk.css.map",
+  "static/css/2.75394a6a.chunk.css.map": "/static/css/2.75394a6a.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.700984a1d148a3006876b0de640a050b.js": "/precache-manifest.700984a1d148a3006876b0de640a050b.js",
+  "service-worker.js": "/service-worker.js"
 }
