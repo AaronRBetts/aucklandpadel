@@ -4,7 +4,6 @@ import { useLocation } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import logo from '../../PadelAucklandalt.svg'
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false)
